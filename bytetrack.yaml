@@ -1,0 +1,8 @@
+# bytetrack.yaml
+tracker_type: bytetrack  # tracker type, ['bytetrack', 'botsort']
+track_high_thresh: 0.8   # threshold for the first association
+track_low_thresh: 0.1    # threshold for the second association
+new_track_thresh: 0.8    # threshold for init a new track if the detection does not match any tracks
+track_buffer: 30         # buffer to keep the track alive for 30 frames when lost
+match_thresh: 0.8        # threshold for matching tracks
+fuse_score: True         # whether to fuse the detection score with the track score
