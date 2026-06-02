@@ -2,6 +2,9 @@
 
 A computer vision pipeline that takes Clash Royale gameplay footage (2D) and recreates it in a 3D environment.
 
+For video demo go to: https://youtu.be/_mGpF8FwNn8
+^First clip is object tracking output, second is corresponding 3D output in Blender
+
 ## Overview
 
 Royale Reconstruction uses a fine-tuned YOLOv8 model and ByteTrack multi-object tracking to detect and track units in Clash Royale gameplay videos. The tracked movement paths are then exported to Blender, where 3D models are animated along those paths to produce a full 3D reconstruction of the match.
