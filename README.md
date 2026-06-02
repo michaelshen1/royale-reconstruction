@@ -2,7 +2,7 @@
 
 A computer vision pipeline that takes Clash Royale gameplay footage (2D) and recreates it in a 3D environment.
 
-For video demo go to: https://youtu.be/_mGpF8FwNn8
+For video demo go to: https://youtu.be/_mGpF8FwNn8 \
 ^First clip is object tracking output, second is corresponding 3D output in Blender
 
 ## Overview
